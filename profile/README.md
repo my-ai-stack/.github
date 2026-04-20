@@ -1,77 +1,62 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="2px" />
-<br />
-<h1 align="center" style="font-size: 5rem; letter-spacing: -3px; font-family: sans-serif;">S T A C K <span style="color: #db2777;">A I</span></h1>
-<p align="center" style="font-size: 1.2rem; letter-spacing: 15px; color: #64748b; text-transform: uppercase;">Global Sovereign Intelligence</p>
-<br />
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="2px" />
+<img src="profile/logo.svg" width="100%" />
 
 <br />
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Compute-NVIDIA_V100_Cluster-green?style=for-the-badge&logo=nvidia" />
-  <img src="https://img.shields.io/badge/Network-Air--Gapped_Sovereign-red?style=for-the-badge&logo=securityscorecard&logoColor=white" />
-  <img src="https://img.shields.io/badge/Protocol-GGUF_Institutional-blue?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/Sovereign-A1--001-black?style=for-the-badge&logo=probot&logoColor=db2777" />
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Node-Global--Infrastructure-black?style=for-the-badge&logo=databricks&logoColor=db2777" />
 </p>
 
-</div>
-
 <br />
 
----
-
-### ⚡ Operational Core
-> **Institutional-grade research collective dedicated to the development of high-density reasoning engines. We build the stacks that power private global intelligence.**
+<h2 align="center" style="font-weight: 200; font-size: 2rem; color: #888;">
+  Building the <span style="color: #fff; font-weight: 600;">Neural Infrastructure</span> for the <br />
+  <span style="color: #db2777; font-weight: 600;">Sovereign Era.</span>
+</h2>
 
 <br />
+<br />
 
-<div align="center">
-<table style="width: 100%; border-collapse: collapse; border: 1px solid #1e293b;">
-  <tr style="background-color: #020617;">
-    <th width="50%" style="padding: 20px; text-align: left; border: 1px solid #1e293b;">
-      <h2 style="color: #db2777;">01. RECTIFICATION</h2>
-      <p style="color: #94a3b8; font-weight: 300;">Surgical fine-tuning methodologies to correct model logic without weight-drift or catastrophic forgetting.</p>
-    </th>
-    <th width="50%" style="padding: 20px; text-align: left; border: 1px solid #1e293b;">
-      <h2 style="color: #db2777;">02. SOVEREIGNTY</h2>
-      <p style="color: #94a3b8; font-weight: 300;">Zero-trust deployment protocols for high-security environments, ensuring absolute data privacy at the edge.</p>
-    </th>
-  </tr>
-  <tr style="background-color: #020617;">
-    <th width="50%" style="padding: 20px; text-align: left; border: 1px solid #1e293b;">
-      <h2 style="color: #db2777;">03. DENSITY</h2>
-      <p style="color: #94a3b8; font-weight: 300;">Optimization of 7B, 14B, and 32B models for maximum reasoning-per-watt efficiency.</p>
-    </th>
-    <th width="50%" style="padding: 20px; text-align: left; border: 1px solid #1e293b;">
-      <h2 style="color: #db2777;">04. QUANTIZATION</h2>
-      <p style="color: #94a3b8; font-weight: 300;">State-of-the-art GGUF and EXL2 formats for high-speed local inference on enterprise clusters.</p>
-    </th>
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr>
+    <td align="left" width="300" style="border: none; padding: 40px;">
+      <code style="color: #db2777;">01 // RECTIFICATION</code>
+      <p style="font-size: 0.9rem; color: #666; line-height: 1.6;">Surgical weight adjustment for localized logic correction.</p>
+    </td>
+    <td align="left" width="300" style="border: none; padding: 40px; border-left: 1px solid #222;">
+      <code style="color: #db2777;">02 // PRIVACY</code>
+      <p style="font-size: 0.9rem; color: #666; line-height: 1.6;">Hardened air-gapped protocols for institutional security.</p>
+    </td>
+    <td align="left" width="300" style="border: none; padding: 40px; border-left: 1px solid #222;">
+      <code style="color: #db2777;">03 // DENSITY</code>
+      <p style="font-size: 0.9rem; color: #666; line-height: 1.6;">High-token efficiency clusters for frontier reasoning.</p>
+    </td>
   </tr>
 </table>
-</div>
 
+<br />
+<br />
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Iter--2_Loss-0.1132-db2777?style=flat-square" />
+  <img src="https://img.shields.io/badge/Status-Active_Optimization-green?style=flat-square" />
+  <img src="https://img.shields.io/badge/Cluster-V100_Sovereign-blue?style=flat-square" />
+</p>
+
+<br />
 <br />
 
 ---
 
-### 📊 Real-Time Training telemetry
-| Process | Target | Checkpoint | Precision | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| **Stack-3.0-Iter2** | Coding/Logic | `CP-1100` | `Bf16 / 4-bit` | <img src="https://img.shields.io/badge/LIVE-TRAINING-success?style=flat-square" /> |
-| **Global-Linguistics** | Multilingual | `CP-0400` | `Fp16` | <img src="https://img.shields.io/badge/QUEUED-IDLE-gray?style=flat-square" /> |
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="50%" height="1px" />
+</p>
 
-<br />
+<p align="center" style="color: #333; font-size: 10px; letter-spacing: 10px;">
+  DECENTRALIZED FRONTIER INTELLIGENCE
+</p>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=my-ai-stack&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" width="400" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=my-ai-stack&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" width="300" />
-</div>
-
----
-
-<div align="center">
-  <p style="color: #334155; font-size: 10px; letter-spacing: 10px;">
-    SYSTEMS SECURED // DOMAIN AUTHORIZED // STACK AI 2026
-  </p>
 </div>
