@@ -1,61 +1,57 @@
 <div align="center">
 
-# S T A C K &nbsp;&nbsp; A I
-**GLOBAL SOVEREIGN INFRASTRUCTURE**
+<img src="profile/header.svg" width="100%" />
 
-`CORE SYSTEMS: ACTIVE` • `ENCRYPTED NODE: AUTHORIZED` • `RESUME STATUS: STABLE`
+<br />
+
+`NODE_STATUS: ACTIVE` • `ENCRYPTION: AES-256` • `GEOLOCATION: ENCRYPTED`
 
 ---
 
 </div>
 
+<br />
+
+### 🏛️ Institutional Intelligence Infrastructure
 > [!IMPORTANT]
-> ### 🛡️ SOVEREIGN ARCHITECTURE
-> Decentralizing frontier intelligence through high-density, air-gapped reasoning engines. We build the stacks that power private global intelligence clusters.
+> **STACK AI** is a global research collective focused on **Sovereign Architecture**. We engineer high-density reasoning engines for air-gapped, high-security environments, ensuring absolute data autonomy for the world's most sensitive institutions.
+
+<br />
+
+<table width="100%">
+  <tr>
+    <td width="33%" align="center" style="border: 1px solid #30363d; border-radius: 10px; padding: 20px;">
+      <b style="color: #db2777;">01 // RECTIFICATION</b><br/>
+      <sub style="color: #8b949e;">Surgical logic correction.</sub>
+    </td>
+    <td width="33%" align="center" style="border: 1px solid #30363d; border-radius: 10px; padding: 20px;">
+      <b style="color: #db2777;">02 // PRIVACY</b><br/>
+      <sub style="color: #8b949e;">Zero-trust deployment.</sub>
+    </td>
+    <td width="33%" align="center" style="border: 1px solid #30363d; border-radius: 10px; padding: 20px;">
+      <b style="color: #db2777;">03 // DENSITY</b><br/>
+      <sub style="color: #8b949e;">Reasoning-per-watt optimization.</sub>
+    </td>
+  </tr>
+</table>
 
 <br />
 
 ### 🛰️ Operational Telemetry
-<div align="center">
-
-| 🟢 SYSTEM STATUS | ⚡ COMPUTE DENSITY | 🔐 SECURITY PROTOCOL |
-| :--- | :--- | :--- |
-| **ITERATION-2 LIVE** | **NVIDIA V100 CLUSTER** | **ZERO-TRUST GGUF** |
-| Loss: `0.1132` | Steps: `2600+` | Status: `Hardened` |
-
-</div>
-
-<br />
-
-### 🛠️ Strategic Workstreams
 
 > [!TIP]
-> #### 01 // SURGICAL RECTIFICATION
-> Utilizing high-signal datasets to correct model logic blindspots without weight-drift or catastrophic forgetting. Optimization at the edge.
-
-> [!CAUTION]
-> #### 02 // DATA SOVEREIGNTY
-> Hardened localized protocols designed for high-security environments. Absolute privacy is the foundation of institutional intelligence.
-
-> [!NOTE]
-> #### 03 // QUANTUM DENSITY
-> State-of-the-art quantization (GGUF/EXL2) ensuring 7B to 70B parameter models run with maximum reasoning-per-watt efficiency.
+> **ACTIVE WORKSTREAM: STACK-3.0-ITER2**
+> - **Current Loss:** `0.1132` (Optimized)
+> - **Global Step:** `2600+`
+> - **Status:** `Training Stable / Sovereign-Node`
 
 <br />
 
 ---
 
-### 📡 Active Network Nodes
-* **[Stack-3.0-Engine]** — `status: optimizing`
-* **[Training-Pipeline]** — `status: fault_tolerant`
-* **[Sovereign-Data]** — `status: encrypted`
-
-<br />
-
 <div align="center">
 
-**SYSTEMS SECURED // DOMAIN AUTHORIZED // 2026**
-
-`[ █ █ █ █ █ █ █ █ █ ░ ░ ░ ░ ] 72% LOAD`
+`[ ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ ]`
+**`SYSTEMS OPERATIONAL // SECURED BY STACK AI // 2026`**
 
 </div>
