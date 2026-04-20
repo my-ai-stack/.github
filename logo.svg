@@ -1,3 +1,5 @@
+
+
 <svg width="800" height="150" viewBox="0 0 800 150" fill="none" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -38,41 +40,6 @@
             <text x="50%" y="60%" text-anchor="middle" class="stack-text" fill="white">STACK AI</text>
         </svg>
         <div class="glow-bar"></div>
-      </div>
-    </div>
-  </foreignObject>
-</svg>
-          align-items: center;
-          animation: float 6s ease-in-out infinite;
-        }
-        h1 {
-          font-size: 72px;
-          font-weight: 900;
-          letter-spacing: -4px;
-          margin: 0;
-          background: linear-gradient(to bottom, #fff 40%, #666);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-        }
-        .scanning-line {
-          width: 400px;
-          height: 1px;
-          background: linear-gradient(90deg, transparent, #db2777, transparent);
-          box-shadow: 0 0 20px #db2777;
-          position: absolute;
-          animation: scan 3s linear infinite;
-        }
-        @keyframes scan { 0% { top: 20%; opacity: 0; } 50% { opacity: 1; } 100% { top: 80%; opacity: 0; } }
-        @keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-15px); } }
-      </style>
-      <div class="canvas">
-        <div class="grid"></div>
-        <div class="glow"></div>
-        <div class="scanning-line"></div>
-        <div class="stack-wrap">
-          <h1>STACK AI</h1>
-          <div style="letter-spacing: 12px; font-size: 10px; color: #db2777; font-weight: bold; margin-top: -10px;">GLOBAL SOVEREIGNTY</div>
-        </div>
       </div>
     </div>
   </foreignObject>
