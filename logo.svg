@@ -1,39 +1,47 @@
-<svg fill="none" viewBox="0 0 800 300" width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="150" viewBox="0 0 800 150" fill="none" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
-        .canvas {
-          background: #000;
-          font-family: -apple-system, system-ui, sans-serif;
-          height: 300px;
+        .container {
+          background: #0d1117;
           display: flex;
-          flex-direction: column;
           justify-content: center;
           align-items: center;
-          color: white;
-          overflow: hidden;
-          position: relative;
+          height: 150px;
+          border-radius: 20px;
+          border: 1px solid #30363d;
+          font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         }
-        .grid {
+        .stack-text {
+          fill: white;
+          font-weight: 900;
+          font-size: 52px;
+          letter-spacing: 12px;
+          text-shadow: 0 0 20px rgba(219, 39, 119, 0.5);
+        }
+        .glow-bar {
+          width: 400px;
+          height: 2px;
+          background: linear-gradient(90deg, transparent, #db2777, transparent);
           position: absolute;
-          width: 200%; height: 200%;
-          background-image: linear-gradient(#111 1px, transparent 1px), linear-gradient(90deg, #111 1px, transparent 1px);
-          background-size: 40px 40px;
-          transform: perspective(500px) rotateX(60deg);
-          top: -50%;
-          z-index: 0;
-          opacity: 0.5;
+          bottom: 40px;
+          animation: scan 3s linear infinite;
         }
-        .glow {
-          position: absolute;
-          width: 300px; height: 300px;
-          background: radial-gradient(circle, rgba(219, 39, 119, 0.15) 0%, transparent 70%);
-          z-index: 1;
+        @keyframes scan {
+          0% { transform: translateX(-200px); opacity: 0; }
+          50% { opacity: 1; }
+          100% { transform: translateX(200px); opacity: 0; }
         }
-        .stack-wrap {
-          z-index: 2;
-          display: flex;
-          flex-direction: column;
+      </style>
+      <div class="container">
+        <svg width="600" height="100">
+            <text x="50%" y="60%" text-anchor="middle" class="stack-text" fill="white">STACK AI</text>
+        </svg>
+        <div class="glow-bar"></div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
           align-items: center;
           animation: float 6s ease-in-out infinite;
         }
