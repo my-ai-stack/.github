@@ -12,7 +12,7 @@ $$\color{#db2777}{\rule{400pt}{2pt}}$$
 <br />
 
 > [!IMPORTANT]
-> ### 🏛️ INSTITUTIONAL MANDATE
+> ### INSTITUTIONAL MANDATE
 > **STACK AI** is a global research collective specializing in **Sovereign Architecture**. We engineer high-density reasoning engines for air-gapped, high-security environments, ensuring absolute data autonomy for the world's most sensitive institutions.
 
 <br />
