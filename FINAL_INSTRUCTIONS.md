@@ -43,23 +43,19 @@
 ### **PRIORITY 1: PyPI Publication (Do TODAY!)**
 
 #### For `lmx` (highest potential):
-1. Go to https://pypi.org/manage/project/lmx/settings/publishing/
-2. Click "Add publish target"
-3. Fill in:
-   - **Owner**: `my-ai-stack`
-   - **Repository**: `lmx`
-   - **Environment**: `pypi`
-4. Go to https://github.com/my-ai-stack/lmx/releases/tag/v0.2.0
-5. The PyPI publish workflow will trigger automatically
+1. **PyPI token already set** as GitHub secret `PYPI_API_TOKEN`
+2. Go to https://github.com/my-ai-stack/lmx/releases/tag/v0.2.0
+3. The PyPI publish workflow will trigger automatically using the token
+4. Verify: `pip install lmx`
 
 #### For `ai-rag-system`:
-1. Same steps as above (replace `lmx` with `ai-rag-system`)
+1. PyPI token already set as GitHub secret
 2. Release: https://github.com/my-ai-stack/ai-rag-system/releases/tag/v0.1.0
+3. Verify: `pip install ai-rag-system`
 
 #### For `Stack-3.0`:
-1. Create GitHub release first: `gh release create v0.1.0 --repo my-ai-stack/Stack-3.0`
-2. Set up PyPI trusted publishing
-3. Release triggers publish
+1. Create GitHub release: `gh release create v0.1.0 --repo my-ai-stack/Stack-3.0`
+2. PyPI publish triggers automatically
 
 **Verify PyPI publication:**
 ```bash

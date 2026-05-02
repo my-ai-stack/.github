@@ -33,7 +33,7 @@ Welcome to the central hub for the **my-ai-stack** GitHub organization. This rep
 ### CI/CD (13+ repos)
 - ✅ Python CI workflow (pytest, flake8, black, mypy)
 - ✅ Node.js CI workflow (lint, typecheck, test, build)
-- ✅ PyPI publish workflow (trusted publishing ready)
+- ✅ PyPI publish workflow (token ready)
 - ✅ Weekly progress report GitHub Action
 
 ### PyPI Packaging
