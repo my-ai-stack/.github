@@ -1,0 +1,72 @@
+name: Weekly Progress Report
+
+on:
+  schedule:
+    # Run every Sunday at 23:00 UTC
+    - cron: '0 23 * * 0'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: pip install pypistats requests
+    
+    - name: Generate progress report
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      run: |
+        echo "# 📊 Weekly Progress Report - $(date +'%Y-%m-%d')" > report.md
+        echo "" >> report.md
+        
+        echo "## 📦 PyPI Downloads" >> report.md
+        for pkg in lmx ai-rag-system stack-3.0 ai-voice-clone deepfake-detector; do
+          echo -n "- $pkg: " >> report.md
+          pypistats downloads $pkg --last-month 2>/dev/null | grep -oE "[0-9,]+" | head -1 >> report.md || echo "Not published" >> report.md
+        done
+        echo "" >> report.md
+        
+        echo "## ⭐ GitHub Stars" >> report.md
+        gh repo list my-ai-stack --json name,stargazerCount --jq '.[] | "- \(.name): \(.stargazerCount) stars"' >> report.md 2>/dev/null || echo "  (gh cli error)" >> report.md
+        echo "" >> report.md
+        
+        echo "## 🤗 HuggingFace Model Downloads" >> report.md
+        for model in Stack-3.0-Omni-Nexus Stack-X-Ultimate Stack-4.0-Qwen-3B-Agentic Stack-2-9-finetuned; do
+          echo -n "- $model: " >> report.md
+          curl -s "https://huggingface.co/api/models/my-ai-stack/$model" | grep -oE '"downloadsLastMonth":[0-9]+' | cut -d: -f2 >> report.md || echo "N/A" >> report.md
+        done
+        echo "" >> report.md
+        
+        echo "## 🚀 Next Actions" >> report.md
+        echo "- [ ] Check PyPI trusted publishing setup" >> report.md
+        echo "- [ ] Create HuggingFace Spaces" >> report.md
+        echo "- [ ] Deploy content-agency-app" >> report.md
+        echo "- [ ] Execute marketing plan" >> report.md
+        echo "" >> report.md
+        echo "--- " >> report.md
+        echo "🎯 **Goal**: 1M downloads by end of 2026" >> report.md
+        
+        cat report.md
+    
+    - name: Create issue with report
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        gh issue create \
+          --repo my-ai-stack/.github \
+          --title "📊 Weekly Progress Report - $(date +'%Y-%m-%d')" \
+          --body "$(cat report.md)" \
+          --label "tracking" || echo "Issue creation failed"
